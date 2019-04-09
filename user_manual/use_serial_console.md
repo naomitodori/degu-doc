@@ -3,6 +3,8 @@
 DeguをMicroUSBケーブルでPCに接続すると、PC上ではCDC ACM Classとして動作します。
 これは、シリアルコンソールとして利用することができ、MicroPythonの標準出力、またはシェルとして動作します。
 
+![serial-console](images/serial_console.png)
+
 ### Windowsでシリアルコンソールを利用する
 
 WindowsでDeguのシリアルコンソールに接続するには、デフォルトでアタッチされるデバイスドライバーを変更する必要があります。
@@ -10,24 +12,24 @@ WindowsでDeguのシリアルコンソールに接続するには、デフォル
 1. スタートボタンを右クリックし、デバイスマネージャーを起動してください。
 1. "ほかのデバイス" -> "Degu Evaluation Kit" を右クリックし、"ドライバーの更新" をクリックしてください。
 
-    ![a](images/serial_console_windows_1.png)
+    ![windows-1](images/serial_console_windows_1.png)
 
 
 1. "コンピューターを参照してドライバーソフトウェアを検索(R)" をクリックしてください。
 
-    ![a](images/serial_console_windows_2.png)
+    ![windows-2](images/serial_console_windows_2.png)
 
 1. "コンピューター上の利用可能なドライバの一覧から選択します(L)" をクリックしてください。
 
-    ![a](images/serial_console_windows_3.png)
+    ![windows-3](images/serial_console_windows_3.png)
 
 1. "ポート(COMとLPT)" をクリックしてください。
 
-    ![a](images/serial_console_windows_4.png)
+    ![windows-4](images/serial_console_windows_4.png)
 
 1. 製造元を"Microsoft"、モデルを"USBシリアルデバイス"を選択し、"次へ(N)"をクリックしてください。
 
-    ![a](images/serial_console_windows_5.png)
+    ![windows-5](images/serial_console_windows_5.png)
 
 1. 警告が表示されますが、無視してください。
 
