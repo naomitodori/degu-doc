@@ -1,4 +1,4 @@
-## MicroPythonコードの変更
+# MicroPythonコードの変更
 
 DeguをMicroUSBケーブルでPCに接続すると、PC上では32KBのUSBマスストレージとして認識されます。
 
