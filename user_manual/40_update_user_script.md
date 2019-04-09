@@ -15,7 +15,7 @@ Deguは起動後、自動的に`main.py`を実行します。`main.py`が存在�
 
 例として、1分毎にバッテリー電圧を送信するスクリプトに書き換える手順を示します。
 
-1. [ここ](https://raw.githubusercontent.com/open-degu/degu-micropython-samples/master/basic/battery/main.py)から、main.pyをダウンロードしてください。
+1. Webブラウザで[ここ](https://raw.githubusercontent.com/open-degu/degu-micropython-samples/master/basic/battery/main.py)にアクセスし、Ctrl+S等で`main.py`として保存してください。
 
 1. ダウンロードした`main.py`で、DeguのUSBマスストレージに格納されている`main.py`を上書きしてください。
 
