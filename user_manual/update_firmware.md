@@ -51,6 +51,6 @@ $ chmod +x dfu-util
     Done!
     ```
 
-1. "Done!" と表示されれば、書き込み完了です。この時点では、新しいファームウェアはFlash上の[Degu Firmware Slot-1](flash_memory_map.md#region_degu_firmware)領域に書き込まれた状態です。書き込みが完了したら、MicroUSBケーブルを接続し直すか、RSTスイッチを押して電源を入れ直してください。
+1. "Done!" と表示されれば、書き込み完了です。書き込みが完了したら、MicroUSBケーブルを接続し直すか、RSTスイッチを押して電源を入れ直してください。
 
-1. 再度電源を入れると、MCUbootが[Degu Firmware Slot-1](flash_memory_map.md#region_degu_firmware)領域に書き込まれた新しいDeguファームウェアを、[Degu Firmware Slot-0](flash_memory_map.md#region_degu_firmware)領域に上書きします。これには十数秒程度時間がかかります。上書きが完了すると、新しく書き込んだDeguファームウェアが起動します。
+1. 電源を入れ直すと、新しいDeguファームウェアが起動します。ファームウェアアップデート後の初回起動は、十数秒程度時間がかかります。
