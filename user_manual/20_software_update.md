@@ -50,7 +50,7 @@ DeguファームウェアをUSB接続でアップデートするには、専用�
 1. DeguがUSB DFU(Device Firmware Update)モードで起動します。USB DFUモードで起動すると、LED1とLED2が500ms間隔で交互に点滅します。この状態で、dfu-utilで任意のファームウェアを書き込んでください。
 
     ```
-    $ sudo ./dfu-util --alt 1 -D degu.bin
+    # sudo ./dfu-util --alt 1 -D degu.bin
     dfu-util 0.9  
     ...
     Opening DFU capable USB device...
@@ -74,6 +74,4 @@ DeguファームウェアをUSB接続でアップデートするには、専用�
     Done!
     ```
 
-1. "Done!" と表示されれば、書き込み完了です。書き込みが完了したら、MicroUSBケーブルを接続し直すか、RSTスイッチを押して電源を入れ直してください。
-
-1. 電源を入れ直すと、新しいDeguファームウェアが起動します。ファームウェアアップデート後の初回起動は、十数秒程度時間がかかります。
+1. "Done!" と表示されれば、書き込み完了です。書き込みが完了したら、MicroUSBケーブルを切断してください。

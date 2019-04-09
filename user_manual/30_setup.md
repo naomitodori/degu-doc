@@ -63,7 +63,7 @@ Retype new UNIX password: # 再入力
 1. 設定ファイル mqttinfo.json をテキストエディタで開きます。
 
 ```
-# vi /etc/mqttinfo.json
+# vi /etc/coap-mqtt/mqttinfo.json
 ```
 
 * mqttinfo.json <デフォルト>
